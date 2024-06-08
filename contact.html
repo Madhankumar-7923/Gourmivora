@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gourmivora_Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png">
+
+    <!--Cursive Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!--garamond-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+
+    <!--Teachers font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+
+
+    <!--Lora-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <!--CDN Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!--Header-->
+    <div class="header">
+
+        <nav>
+
+            <h1 class="gourmivora-title" onclick="document.location = 'index.html'">Gourmivora</h1>
+            <h5 class="gourmivora-subtitle">The way you love the food!!</h5>
+
+            <ul class="header-navigator">
+                <li class="header-navigator-li"> <a class="reroute" href="index.html">Home</a> </li>
+                <li class="header-navigator-li"> <a class="reroute" href="receipe.html">Recipe</a> </li>
+                <li class="header-navigator-li"> <a class="reroute" href="contact.html">Contact</a> </li>
+            </ul>
+
+        </nav>
+
+    </div>
+
+    <!--Contact-->
+    <div>
+
+        <div class="contact-header">
+            <h1>Need to be a Supporter??</h1>
+            <p>If you are good at cooking and eager to share your recipes, then why waiting share your recipes and
+                experience to us!!..</p>
+            <hr>
+        </div>
+
+
+        <div class="contact-container">
+
+            <div class="contact-form-container">
+
+                <h1>Contact Us</h1>
+
+                <form action="#" method="post" class="contact-form">
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label>Gender:</label>
+                    <div class="gender-options">
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female" required>
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other" required>
+                        <label for="other">Other</label>
+                    </div>
+
+                    <label for="name">Recipe Title:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" rows="4" required></textarea>
+
+                    <div class="form-buttons">
+                        <button type="reset" class="cancel-button">Cancel</button>
+                        <button type="submit" class="submit-button">Submit</button>
+                    </div>
+
+                    <div class="gourmivora-email">
+                        <h5><i class="fa-solid fa-globe"></i> WWW.GOURMIVORA.COM</h5>
+                    </div>
+
+                </form>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--Follow us-->
+
+    <div class="follow">
+
+        <h2>Get More Unique Recipes, Follow us!!</h2>
+
+        <div class="follow-icons">
+            <a href="https://www.youtube.com/" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"> <i
+                    class="fa-brands fa-instagram"></i> </a>
+            <a href="https://www.facebook.com/login/" target="_blank"> <i class="fa-brands fa-facebook"></i> </a>
+            <a href="https://x.com/" target="_blank"> <i class="fa-brands fa-x-twitter"></i> </a>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!--Footer-->
+    <div class="footer">
+        <h5>© 2024 Gourmivora. All rights reserved.</h5>
+    </div>
+
+</body>
+
+</html>
